@@ -1,7 +1,9 @@
-from fwt import Authority
-import pytest
 from unittest.mock import patch
+
+import pytest
 from freezegun import freeze_time
+
+from fwt import Authority
 
 DEFAULT_KEY = b"bg93rvEVr8OVrq7UDxgPQCBvovxSuIUjrbEBR5JwIAI="
 

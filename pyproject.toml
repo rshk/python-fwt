@@ -11,5 +11,9 @@ dependencies = [
 [dependency-groups]
 dev = [
     "freezegun>=1.5.5",
+    "isort>=6.0.1",
     "pytest>=8.4.2",
 ]
+
+[tool.isort]
+profile = "black"

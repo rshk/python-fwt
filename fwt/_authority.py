@@ -1,7 +1,8 @@
 import json
-from typing import Any
-from cryptography.fernet import Fernet
 from datetime import datetime, timedelta, timezone
+from typing import Any
+
+from cryptography.fernet import Fernet
 
 
 class Authority:

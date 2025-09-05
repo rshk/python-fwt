@@ -11,4 +11,5 @@ lint:
     ruff check
 
 format:
+    uv run isort ./fwt ./tests
     ruff format
