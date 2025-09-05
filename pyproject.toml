@@ -1,12 +1,25 @@
 [project]
 name = "fwt"
-version = "0.1.0"
+version = "1.0.0b1"
 description = "Fernet (symmetrically signed and encrypted) Web Tokens"
 readme = "README.md"
+license = "BSD-3-Clause"
 requires-python = ">=3.12"
 dependencies = [
     "cryptography>=45.0.7",
 ]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: BSD License",
+]
+authors = [
+  { name = "Sam Santi", email = "redshadow@hackzine.org" },
+]
+
+[project.urls]
+Homepage = "https://github.com/rshk/python-fwt"
+Repository = "https://github.com/rshk/python-fwt"
+Issues = "https://github.com/rshk/python-fwt/issues"
 
 [dependency-groups]
 dev = [
