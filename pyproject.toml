@@ -1,6 +1,6 @@
 [project]
 name = "fwt"
-version = "1.0.0b1"
+version = "1.0.0b2"
 description = "Fernet (symmetrically signed and encrypted) Web Tokens"
 readme = "README.md"
 license = "BSD-3-Clause"
