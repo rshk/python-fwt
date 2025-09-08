@@ -93,7 +93,7 @@ wheels = [
 
 [[package]]
 name = "fwt"
-version = "1.0.0b2"
+version = "1.0.0"
 source = { virtual = "." }
 dependencies = [
     { name = "cryptography" },
